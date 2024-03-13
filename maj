@@ -1,5 +1,5 @@
 #!/bin/bash 
-echo "Voulez-vous faire les mises a jour de votre machine (yes/no)"
+echo "Voulez-vous faire les mises à jour de votre machine (yes/no)"
 read result
  if [ "$result" = "yes" ]; then
   sudo apt update
